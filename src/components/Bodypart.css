@@ -1,0 +1,85 @@
+.mainbodypart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  margin: 2% auto;
+  gap: 2%;
+}
+
+.leftside {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.allinfo {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  color: #201E43;
+  font-family: 'Poppins', sans-serif;
+}
+
+.allinfo h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1%;
+  
+  font-size: large;
+  font-weight: 700;
+  margin-left: 7%;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.allinfo p {
+  line-height: 2.0;
+  
+}
+
+.thisbutton {
+  margin-top: 40px;
+  text-align: center;
+  background-color: white;  
+  border-radius: 10px;
+  padding: 20px;
+  color: #201E43;
+  font-family: 'Poppins', sans-serif;
+}
+
+.thisbutton button {
+  background-color: #201E43;
+  color: #BCCCDC;
+  padding: 10px 20px;
+  border: 2px solid #BCCCDC;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.thisbutton button:hover{
+  color: #201E43;
+  background-color: #BCCCDC;
+
+}
+
+.thisbutton h3 {
+  margin-top: 10px;
+  color: #201E43;
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+.thisbutton p{
+  font-weight: 200;
+  font-size: medium;
+  font-style: italic;
+}
+
+.myimageclass {
+  width: 30%;
+  height: 66vh;
+  border-radius: 10px;
+}

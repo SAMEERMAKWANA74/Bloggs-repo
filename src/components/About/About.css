@@ -1,0 +1,76 @@
+
+.mainpart-body{
+  color: #201E43;
+  margin-top: 5vh;
+  background-color:  #201E43;
+  border-radius: 20px;
+  width: 90%;
+  height: 70vh;
+  align-content: center;
+  justify-items: center;
+  margin-left: 5%;
+}
+
+.second-frame {
+  background-color: white;
+  width: 90%;
+  margin-top: 2vh;
+  height: 60vh;
+  border-radius: 20px;
+  display: flex;
+  align-items: center; 
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.third-frame h1{
+  font-weight: 700;
+  margin-top: -70px;
+  font-size: larger;
+  background-color: #201E43;
+  border-radius: 20px;
+  height: 50px;
+  color: white;
+  align-content: center;
+  justify-content: center;
+  text-align: center;  
+}
+
+.third-frame p{
+  margin-top: 50px;
+  line-height:2.0;
+}
+
+.myself{
+  color: #201E43;
+  font-weight: 600;
+  margin-top: 12px;
+  text-decoration:solid underline;
+}
+
+.myself:hover{
+    font-size: large;
+    color: orangered;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+  border-color: #D9EAFD;
+  border-width: 3px;
+  border-color: orange;
+}
+
+.image-frame {
+  height: 50vh;
+  width: 50vh;
+  border-radius: 12px; 
+}

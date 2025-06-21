@@ -1,0 +1,76 @@
+.mainpart h1{
+  margin-top: 20px;
+  color: #201E43;
+}
+
+.mainpart h1:hover{
+text-decoration: underline;
+font-weight: 800;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mainframe{
+    width: 55vh;
+  height: 50vh;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.mainframe:hover{ 
+   border: 4px solid rgba(197, 197, 197, 0.799);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  width: 60vh;
+  height: 55vh;
+}
+
+.imgstyle{
+  width: fit-content;
+  object-fit:cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.mainframe h1{
+  margin-top: 12px;
+  font-weight: 600;
+  color:#201E43;
+  padding-left: 15px;
+}
+
+.mainframe h1:hover{
+  color: orangered;
+  font-weight: 800;
+  transition: all 0.1s ease-in-out;
+  text-decoration: underline;
+}
+
+.mainframe p{
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: medium;
+  padding-left: 15px;
+  color:#201E43;
+  padding-right: 12px;
+}
+
+.mainframe p:hover{
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.mainframe span{
+  font-weight: 100;
+  font-size: small;
+  padding-left: 15px;  
+  color:#201E43;
+}
+

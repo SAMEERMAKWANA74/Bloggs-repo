@@ -1,0 +1,123 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.create-main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  border-width: 6px;
+  border-color: #201E43;
+  border-style:groove;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
+  box-shadow: 0 4px 20px rgb(35, 83, 87);
+}
+
+.create-main h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: xx-large;
+  font-weight: 700;
+  color:#201E43;
+}
+
+.form-content {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.left-form {
+  flex: 2;
+}
+
+.right-image {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color:#201E43;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 200px;
+}
+
+.right-image input[type="file"] {
+  padding: 10px;
+  border: 1px dashed #aaa;
+  border-radius: 8px;
+  cursor: pointer;
+  
+}
+
+.right-image label{
+    font-weight: 600;
+  color:#201E43;
+}
+
+.image-preview img {
+  margin-top: 10px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.upload-btn,
+.discard-btn {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.upload-btn:hover {
+  background-color: #45a049;
+}
+
+.discard-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.discard-btn:hover {
+  background-color: #d32f2f;
+}
