@@ -1,12 +1,32 @@
-# React + Vite
+# 📝 MyBlog - React Blog Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive blog platform built with **React**, **Vite**, and **Tailwind CSS**. This app allows users to explore trending blogs across categories like Sports, Politics, and more. Users can also create their own blogs, enhancing their content sharing experience.
 
-Currently, two official plugins are available:
+## 🔗 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 [Visit MyBlog on Vercel](https://bloggs-repo-m2lv.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Tech Stack
+
+- **Frontend**: React (Vite)
+- **Styling**: Tailwind CSS
+- **Routing**: React Router DOM
+- **Icons**: React Social Icons
+- **State Management**: useState, useEffect
+- **Deployment**: Vercel
+- **Code Editor**: VS Code
+
+---
+
+## 🚀 Features
+
+- 📰 View trending blogs by category (e.g., Sports, Politics)
+- 📝 Create your own blog
+- 🔐 Secure login system
+- 📄 Pages: Home, Login, About, Contact, Create Blog
+- 🎨 Interactive UI with hover effects and icons
+
+---
+
